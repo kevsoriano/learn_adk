@@ -77,5 +77,5 @@ root_agent = Agent(
     instruction=(
         "You are a travel planner agent. Help the user plan their trip."
     ),
-    tools=[get_weather]
+    tools=[get_weather,get_current_time]
 )
